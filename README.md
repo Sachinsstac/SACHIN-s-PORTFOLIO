@@ -7,16 +7,24 @@ Showcases my skills, projects, and contact information with a clean and interact
 
 # Made with ❤️ by Sachin
 
+---
+
+## 🌐 Live Demo
+
+🔗 **View Portfolio:**  
+👉 https://sachinsstac.github.io/SACHIN-s-PORTFOLIO/
+
+---
 
 ## ✨ Features
 
-- 🎯 Modern UI with glassmorphism design
-- 📱 Fully responsive (mobile + tablet + desktop)
-- 🎨 Smooth animations and transitions
-- 🧠 Clean and structured layout
-- 📂 Projects showcase section
-- 🛠 Skills and services section
-- 📬 Contact form UI
+- 🎯 Modern UI with glassmorphism design  
+- 📱 Fully responsive (mobile + tablet + desktop)  
+- 🎨 Smooth animations and transitions  
+- 🧠 Clean and structured layout  
+- 📂 Projects showcase section  
+- 🛠 Skills and services section  
+- 📬 Contact form UI  
 
 ---
 
@@ -25,11 +33,12 @@ Showcases my skills, projects, and contact information with a clean and interact
 - HTML5  
 - CSS3  
 - JavaScript  
-- Font Awesome (icons)
+- Font Awesome (icons)  
 
 ---
 
 ## 📁 Folder Structure
+
 project-folder/
 │
 ├── index.html
@@ -37,24 +46,22 @@ project-folder/
 ├── script.js
 └── assets/
 
-
 ---
 
 ## 🚀 Getting Started
 
 1. Clone the repository:
-```bash
 git clone https://github.com/YOUR_USERNAME/portfolio.git
 
 2. Open the project folder:
-
 cd portfolio
 
-3. Open index.html in your browser.
+3. Open index.html in your browser  
 
+---
 
+## 📧 Contact
 
-📧 Contact
-For feedback, suggestions, or queries, reach out at:<br>
-📩 Email : sachin.962545@gmail.com
+For feedback, suggestions, or queries, reach out at:
 
+📩 Email: sachin.962545@gmail.com  
