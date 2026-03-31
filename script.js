@@ -610,7 +610,7 @@ function sendToWhatsApp(e) {
 
     let phoneNumber = "919625458752";
 
-    let text = `New Message From Portfolo
+    let text = `New Message From Portfolo : %0A
 Name: ${name}%0A
 Email: ${email}%0A
 Subject: ${subject}%0A
