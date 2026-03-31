@@ -599,3 +599,24 @@ function initContactForm() {
         }, 3000);
     });
 }
+
+function sendToWhatsApp(e) {
+    e.preventDefault();
+
+    let name = document.querySelector('input[name="name"]').value;
+    let email = document.querySelector('input[name="email"]').value;
+    let subject = document.querySelector('input[name="subject"]').value;
+    let message = document.querySelector('textarea[name="message"]').value;
+
+    let phoneNumber = "919625458752";
+
+    let text = `New Contact Form Message:%0A
+Name: ${name}%0A
+Email: ${email}%0A
+Subject: ${subject}%0A
+Message: ${message}`;
+
+    let url = `https://wa.me/${phoneNumber}?text=${text}`;
+
+    window.open(url, "_blank");
+}

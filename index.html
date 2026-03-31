@@ -463,7 +463,6 @@
     </section>
 
     <!-- ========== CONTACT SECTION ========== -->
-    <!-- ========== CONTACT SECTION ========== -->
     <section id="contact" class="section">
         <div class="container">
 
@@ -498,7 +497,7 @@
                             <div class="contact-icon"><i class="fas fa-phone"></i></div>
                             <div>
                                 <p class="contact-label">Phone</p>
-                                <a href="tel:+91XXXXXXXXXX" class="contact-value">+91 9625458752</a>
+                                <a href="tel:+919625458752" class="contact-value">+91 9625458752</a>
                             </div>
                         </div>
 
@@ -523,7 +522,7 @@
                 </div>
 
                 <!-- RIGHT SIDE FORM -->
-                <form class="contact-form">
+                <form class="contact-form" onsubmit="sendToWhatsApp(event)">
 
                     <div class="form-header">
                         <h4 class="form-title">Send Message</h4>
@@ -535,7 +534,7 @@
                         <div class="form-group">
                             <div class="form-input-wrapper">
                                 <i class="fa fa-user input-icon"></i>
-                                <input type="text" class="form-input" placeholder="Your Name" required>
+                                <input type="text" class="form-input" name="name" placeholder="Your Name" required>
                                 <label for="name" class="form-label">Your Name</label>
                                 <span class="input-glow"></span>
                             </div>
@@ -544,7 +543,7 @@
                         <div class="form-group">
                             <div class="form-input-wrapper">
                                 <i class="fa fa-envelope input-icon"></i>
-                                <input type="email" class="form-input" placeholder="Your Email" required>
+                                <input type="email" name="email" class="form-input" placeholder="Your Email" required>
                                 <label for="email" class="form-label">Your Email</label>
                                 <span class="input-glow"></span>
                             </div>
@@ -553,7 +552,7 @@
                         <div class="form-group full-width">
                             <div class="form-input-wrapper">
                                 <i class="fa fa-pen input-icon"></i>
-                                <input type="text" class="form-input" placeholder="Subject">
+                                <input type="text" name="subject" class="form-input" placeholder="Subject">
                                 <label for="subject" class="form-label">Subject</label>
                                 <span class="input-glow"></span>
                             </div>
@@ -562,7 +561,7 @@
                         <div class="form-group full-width">
                             <div class="form-input-wrapper">
                                 <i class="fa fa-message input-icon"></i>
-                                <textarea class="form-input form-textarea" placeholder="Your Message"></textarea>
+                                <textarea class="form-input form-textarea" name="message" placeholder="Your Message"></textarea>
                                 <label for="message" class="form-label">Your Message</label>
                                 <span class="input-glow"></span>
                             </div>
