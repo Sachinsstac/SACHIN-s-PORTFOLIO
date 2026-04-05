@@ -613,13 +613,24 @@ button {
 }
 
 .social-link:hover {
-    color: var(--text-primary);
+    /* color: var(--text-primary); */
     border-color: var(--accent-purple);
     background: rgba(131, 56, 236, .15);
     transform: translateY(-4px);
     box-shadow: 0 8px 25px rgba(131, 56, 236, .25);
 }
-
+.s-i-insta:hover {
+    color: var(--accent-pink);
+}
+.s-i-snap:hover{
+    color: yellow;
+}
+.s-i-linkedin:hover{
+    color: var(--accent-blue);
+}
+.s-i-github:hover{
+    color: white;
+}
 /* Hero Visual */
 .hero-visual {
     display: flex;
@@ -1302,7 +1313,7 @@ button {
     transition: color 0.3s ease;
 }
 
-a.contact-value:hover {
+p.contact-value:hover {
     background: var(--gradient-primary);
     -webkit-background-clip: text;
     background-clip: text;
